@@ -1,0 +1,24 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.stats__label {
+  font-size: var(--font-size-medium);
+  font-weight: 700;
+  color: var(--primary-color-text);
+}
+
+.stats__value {
+  border: 1px solid;
+  padding-inline: 20px;
+  padding-block: 6px;
+  border-radius: 6px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color-text);
+}
